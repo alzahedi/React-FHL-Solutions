@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Profile = () => {
+const ProfileWithNoImage = () => {
     const person = {
         firstName: 'John',
         lastName: 'Doe',
-        imageURL: 'https://i.imgur.com/7vQD0fPs.jpg'
+        imageURL: ''
       };
 
   return (
@@ -20,4 +20,4 @@ const Profile = () => {
   )
 }
 
-export default Profile
+export default ProfileWithNoImage
